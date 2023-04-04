@@ -3,8 +3,6 @@ name    = "limit-rust-docs"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 cetacea-proto = { git = "https://github.com/Limit-LAB/cetacea-proto.git" }
 orkas-core    = { git = "https://github.com/Limit-LAB/orkas.git" }
@@ -12,4 +10,6 @@ limlog        = { git = "https://github.com/Limit-LAB/limlog.git" }
 r18           = { git = "https://github.com/Limit-LAB/r18.git" }
 jsonmpk       = { git = "https://github.com/Limit-LAB/jsonmpk.git" }
 
-# orkas-server  = { git = "https://github.com/Limit-LAB/orkas.git" }
+## Workaround for ambigious pkgid spec in tree
+[patch.'https://github.com/Limit-LAB/limlog']
+limlog = { git = "https://github.com/Limit-LAB//limlog" }
