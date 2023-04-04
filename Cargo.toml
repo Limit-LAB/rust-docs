@@ -8,7 +8,8 @@ edition = "2021"
 [dependencies]
 cetacea-proto = { git = "https://github.com/Limit-LAB/cetacea-proto.git" }
 orkas-core    = { git = "https://github.com/Limit-LAB/orkas.git" }
-orkas-server  = { git = "https://github.com/Limit-LAB/orkas.git" }
 limlog        = { git = "https://github.com/Limit-LAB/limlog.git" }
 r18           = { git = "https://github.com/Limit-LAB/r18.git" }
 jsonmpk       = { git = "https://github.com/Limit-LAB/jsonmpk.git" }
+
+# orkas-server  = { git = "https://github.com/Limit-LAB/orkas.git" }
