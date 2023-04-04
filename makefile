@@ -1,4 +1,4 @@
-crates := cetacea-proto orkas-core orkas-server limlog r18 jsonmpk
+crates := cetacea-proto orkas-core limlog r18 jsonmpk
 
 build:
 	for crate in $(crates); do \
